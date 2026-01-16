@@ -3,58 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WELCOME BACK KING</title>
+    <title>HTML enhanced</title>
 </head>
 <body>
-    <header>
-        <h1>The comeback</h1>
-        <p>Presented to you by the one Mwakio</p>
-        
-        <nav>
-            <a href="index.html">Home</a> 
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="services.html">Services</a>
-        </nav>
-
-    </header>
-
     <main>
-        <h2>Welcome to my webpage</h2>
-        <p>This is where i am starting from</p>
-
         <section>
-            <h3>HOBBIES</h3>
-            <ol>
-                <li>Gym</li>
-                <li>Cycling</li>
-                <li>Coding</li>
-                <li>DJying</li>
-                <li>Singing</li>
+            <h2>Lists</h2>
+            <p>We have two types of lists. Ordered and unordered.</p>
+           <ol type="A" start="1">
+            <li><h3>Ordered List</h3></li>
+            <ol >
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
             </ol>
+            <h4>Reversed Ordered List</h4>
+            <p>This can be done by adding the <strong>reversed</strong> attribute to the <strong>ol</strong> tag.</p>
+            <ol reversed>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ol>
+           <li> <h3>Unordered List</h3></li>
+            <ul type="square">
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ul>
+
+            <li><h3>Description List</h3></li>
+            <p>This type of list is used to describe terms.</p>
+            <dl></dl>
+                <dt><strong>USIU</strong></dt>
+                <dd>United States International University</dd>
+                <dt><strong>MFA</strong> </dt>
+                <dd>Mpesa Foundation Academy</dd>
+            </dl>
+
+            <li><h3>Nested Lists</h3></li>
+            <p>This is a list within a list.</p>
+            <ol>
+                <li>Lower education
+                    <ol>
+                        <li>Mlamba Pri School</li>
+                        <li>MFA</li>
+                    </ol>
+                </li>
+                <li>Upper Education
+                    <ul>
+                        <li>Diploma Business information technology</li>
+                        <li>BCs Applied computer technology</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <li><h3>Menu List</h3></li>
+            <p>This type of list is used to create a menu.</p>
+            <ol>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services
+                    <ul type="disc">
+                        <li>Web Development</li>
+                        <li>App Development</li>
+                        <li>SEO</li>
+                    </ul>
+                </li>
+                <li>Contact Us</li>
+                    <ul type="circle">
+                        <li>Email</li>
+                        <li>Phone</li>
+                        <li>Github</li>
+                    </ul>
+              </ol>
+
+              </ol>
         </section>
 
         <section>
-            <h3>EDUCATION</h3>
-            <OL>
-                <li>BTEC LEVEL 4 BUSINESS -MFA </li>
-                <aside>
-                    This is where it all started from fahm. Back in 2018 then all way to 2022, wow what a journey it was 
-                </aside>
-                <li>Certificate in Business Management - Riara university</li>
-                <li>Diploma in Business information technology - Riara university</li>
-                <li>Applied computer tecnology - USIU</li>
-            </OL>
+            <h1>Multimedia</h1>
+
+            <h2>Images</h2>
+            <p>Syntax for adding an image:</p>
+            <pre>&lt;img src="image.jpg" alt="Description of image" 
+            
+            <h3>Title</h3>
+            <img src="icon.png" title="Settings">
+
+            <h3>Loading</h3>
+            <p>This attribute specifies whether a browser should load an image immediately or to defer loading of off-screen images until users scroll near them.</p>
+            <img src="image.jpg" loading="lazy">
+                
+            <h3>Decoding</h3>
+            <p>This attribute specifies how the browser should decode an image.</p>
+            <img src="image.jpg" decoding="async">
+
         </section>
-
-        <article>
-            <p>I mean this is so good for my first time ,Lol even though i know i had started earlier on but i wasn't that serios with it but now it's about time.</p>
-            <p>Now i really dont know what to put here but hey this is my first ever webpage so bear with me as i learn the ropes of web development. Cheers!</p>
-        </article>
     </main>
-
-    <footer>
-        &copy; 2026 Mwakisakenyi. All rights reserved.
-    </footer>
 </body>
 </html>
