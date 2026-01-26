@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+body{
+    background-color: lightblue;
+}
+
+#project-potrait {
+  background: #fff ;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2rem;
+  transition: ();
+  box-shadow: ();
+  display: flex;
+  flex-direction: column;
+}
+
